@@ -1,8 +1,7 @@
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/react-config' // veya projenizdeki mevcut react importu
 
-// https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react()],
-    base: '/fittrack-pro/', // GitHub Pages repo name
+    base: '/FitTrack-Pro/', // BU SATIRI EKLE (Baştaki ve sondaki slash önemli!)
 })
